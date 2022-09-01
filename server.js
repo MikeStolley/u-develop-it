@@ -16,11 +16,12 @@ const db = mysql.createConnection(
     // Your MySQL username,
     user: 'root',
     // Your MySQL password
-    password: '',
+    password: 'Milkmaid13579',
     database: 'election'
   },
   console.log('Connected to the election database.')
 );
+
 
 // Get all candidates
 app.get('/api/candidates', (req, res) => {
